@@ -45,6 +45,7 @@ public class Lab {
 //        code here
         for( int i = start; i< end; i++ )
         {
+            System.out.println("start=" +start + " " + "end=" + end);
             buildingString= buildingString+ i + " "; 
             System.out.println(buildingString);
         }
